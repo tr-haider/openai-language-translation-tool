@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Language Translation Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Language Translation Tool</h1>
+      <form method="post">
+        <textarea name="text" rows="4" cols="50" placeholder="Enter text here..."></textarea><br>
+        <input type="text" name="source_lang" placeholder="Source Language (e.g., English)">
+        <input type="text" name="target_lang" placeholder="Target Language (e.g., Spanish)"><br>
+        <button type="submit">Translate</button>
+      </form>
+      {% if translation %}
+      <h2>Translation:</h2>
+      <p>{{ translation }}</p>
+      {% endif %}
+    </div>
+  </body>
+</html>
