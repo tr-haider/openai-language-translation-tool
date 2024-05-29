@@ -9,8 +9,8 @@ This is a language translation tool built using Flask and OpenAI's GPT-3.5-turbo
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/tr-haider/openai-language-translation-tool.git
+   cd openai-language-translation-tool
 
 2. **Setup virtual environment:**
 
