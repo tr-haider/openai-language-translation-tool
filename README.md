@@ -36,7 +36,6 @@ This is a language translation tool built using Flask and OpenAI's GPT-3.5-turbo
    cd web_interface
    python3 app.py
    
-6. **Access the app:**
    Open your browser and navigate to http://127.0.0.1:5000/.
 
    
